@@ -25,7 +25,7 @@ import {Link} from 'react-router-dom';
                         <Link to="/contact">Contact</Link>
                     </li>
                     <li>
-                        <Link to="/contact">Shop</Link>
+                        <Link to="/shop/food">Shop</Link>
                     </li>
                 </ul>
             </div>
