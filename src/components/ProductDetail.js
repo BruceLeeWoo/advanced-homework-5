@@ -14,6 +14,7 @@ import {Link} from 'react-router-dom';
               <div className="thumbnail">
                   <img style={{width:"320px",height:"150px"}} src={imgUrl} alt=""/>
                   <div className="caption">
+                      <h4>{price}</h4>
                        <h4><Link to={"/product/" + id}>{name}</Link>
                       </h4>
                       <p>{description} 

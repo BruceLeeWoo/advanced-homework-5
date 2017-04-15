@@ -12,6 +12,7 @@
  * Create an action creator called createProduct which will take in an product object and return an action with type = "CREATE_PRODUCT".
  * Change CategoryMenu to be a container and use mapStateToProps to get categories.
  * Make Products a container and mapStateToProps for products.
+ * Make Product a container and mapStateToProps for products.
  * Create a new page for making a new product.
     * Create a new class component CreateProduct.
     * Create a container for CreateProduct that mapsStateToProps for the categories and mapsDispatchToProps for createProduct.
@@ -23,7 +24,7 @@
     * Remember what happens when you submit a form by default.
   * Create a new route for CreateProduct and put a link to it in the nav bar.
   * Remove all passing of props except Shop still needs to pass its props to Products and App needs to pass its props to Product {...props}. This is to accommodate react router which we will fix later.
-  * Change routes to use the component attribute now since we don’t have to pass props anymore (except for product route).
+  * Change routes to use the component attribute now since we don’t have to pass props anymore 
 
  
 
