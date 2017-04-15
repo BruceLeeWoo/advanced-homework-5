@@ -20,7 +20,7 @@
     * Register onChange to assign the values to state properties.
     * Create a submit button.
     * onSubmit of the form call the function createProduct sending in an object representing the product.
-    * Remember what happens when you submit a form be default.
+    * Remember what happens when you submit a form by default.
   * Create a new route for CreateProduct and put a link to it in the nav bar.
   * Remove all passing of props except Shop still needs to pass its props to Products and App needs to pass its props to Product {...props}. This is to accommodate react router which we will fix later.
   * Change routes to use the component attribute now since we don’t have to pass props anymore (except for product route).
