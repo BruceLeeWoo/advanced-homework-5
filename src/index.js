@@ -4,14 +4,9 @@ import App from './App';
 import './index.css';
 import state from './state';
 
-function changeCategory(cat){
-  state.currentCategory = cat;
-  render();
-}
-function render(){
-  ReactDOM.render(
-    <App state={state} changeCategory={changeCategory} />,
-    document.getElementById('root')
-  );
-}
-render();
+ReactDOM.render(
+  <App state={state} />,
+  document.getElementById('root')
+);
+
+
